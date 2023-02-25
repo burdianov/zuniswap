@@ -66,7 +66,7 @@ describe("Exchange", function () {
     });
   });
 
-  describe.skip("getTokenAmount", async () => {
+  describe("getTokenAmount", async () => {
     it("returns correct token amount", async () => {
       const { token, exchange } = await loadFixture(
         deployTokenAndExchangeFixture
@@ -86,7 +86,7 @@ describe("Exchange", function () {
     });
   });
 
-  describe.skip("getEthAmount", async () => {
+  describe("getEthAmount", async () => {
     it("returns correct eth amount", async () => {
       const { token, exchange } = await loadFixture(
         deployTokenAndExchangeFixture
